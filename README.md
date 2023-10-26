@@ -8,3 +8,8 @@ On the other hand, Kubernetes can be described as an container organizer, managi
 The main goal of this project was to create containers with the following images: rabbitMQ, NGINX, reddis, MariaDB, phpmyadmin and elastic search. All of them should be connected with each
 other and the objective was to retrieve logs (access and error) from NGINX through elastic search logs interface. However, due to little time to do it and other projects ongoing, what was
 really done was just the creation of the containers, connecting them all and then retrieving its logs via prompt. 
+
+This project was done in a group of 4 people, so 3 of them were responsible to achieve the goal of this by using just Docker and i was responsible for achieving this goal using something
+that we never had any contact: Kubernetes. So, i am going to explain how to achieve the same results as i did using Kubernetes.
+
+
