@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: rabbit-pod
+spec:
+  containers:
+    - name: rabbit-container
+      image: rabbitmq
+      ports:
+        - containerPort: 90
